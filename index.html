@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Business Website</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyWebsite</div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+      <h1>Grow Your Business Online</h1>
+
+      <p>
+        Responsive Website with Modern UI/UX
+      </p>
+
+      <button id="heroBtn">Get Started</button>
+    </div>
+
+  </section>
+
+  <!-- Services Section -->
+
+  <section class="services" id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-container">
+
+      <div class="service-box">
+        <h3>Web Development</h3>
+
+        <p>
+          Responsive and SEO friendly websites.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <h3>UI/UX Design</h3>
+
+        <p>
+          Attractive and user friendly design.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <h3>Digital Marketing</h3>
+
+        <p>
+          Grow your business using marketing.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact Form -->
+
+  <section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+
+      <input 
+        type="text" 
+        placeholder="Enter Your Name"
+        required
+      >
+
+      <input 
+        type="tel"
+        placeholder="Enter Phone Number"
+        required
+      >
+
+      <select required>
+        <option value="">Select Service</option>
+
+        <option>Web Development</option>
+
+        <option>UI/UX Design</option>
+
+        <option>Digital Marketing</option>
+      </select>
+
+      <button type="submit">
+        Submit
+      </button>
+
+    </form>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+    <p>
+      © 2026 MyWebsite | All Rights Reserved
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
